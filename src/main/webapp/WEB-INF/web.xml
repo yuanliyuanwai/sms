@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="3.0"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+	<filter>
+		<filter-name>encodingFilter</filter-name>
+		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+		<init-param>
+			<param-name>forceEncoding</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>encodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	<!-- 记录日志的filter -->
+	<filter>
+		<filter-name>accessLogFilter</filter-name>
+		<filter-class>cn.edu.bit.sms.common.http.AccessLogFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>accessLogFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	<!-- 判断登录的Filter -->
+	<filter>
+		<filter-name>loginFilter</filter-name>
+		<filter-class>cn.edu.bit.sms.common.http.LoginFilter</filter-class>
+		<async-supported>true</async-supported>
+		<init-param>
+			<param-name>exclueUrl</param-name>
+			<param-value>/404_error.jsp,/admin/login.jsp,/system/user/login,/system/user/reLogin</param-value>
+		</init-param>
+		<init-param>
+			<param-name>excluePath</param-name>
+			<param-value>/admin/app/,/admin/css/,/admin/extjs4.2/,/admin/images/,/admin/resources/</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>loginFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	<!-- HttpServlet上下文的Filter -->
+    <filter>
+		<filter-name>httpServletContextFilter</filter-name>
+		<filter-class>cn.edu.bit.sms.common.http.HttpServletContextFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>httpServletContextFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<servlet>
+		<servlet-name>springMVC</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>/WEB-INF/springMVC-servlet.xml</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>springMVC</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>
+			/WEB-INF/spring.xml
+			/WEB-INF/spring-hibernate.xml
+		</param-value>
+	</context-param>
+	<!-- <error-page>
+		<error-code>404</error-code>
+		<location>/404_error.jsp</location>
+	</error-page> -->
+	<welcome-file-list>
+		<welcome-file>/admin/login.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

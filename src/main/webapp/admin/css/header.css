@@ -1,0 +1,101 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+
+.header{
+	width:100%;
+	height:50px;
+	margin:0px;
+	padding:0px;
+	background:url(../images/header/header-bg.png) repeat-x;
+}
+
+.header .logo{
+	position:absolute;
+	top:0px;
+	left:5px;
+	width:70px;
+	height:50px;
+	margin:0px;
+	padding:0px;	
+}
+
+.header .logofont{
+	margin:0px;	
+	position:absolute;
+	left:70px;
+	top:13px;	
+	color:#FFF;
+	font-family:Simhei;
+	font-size:22px;
+}
+
+.header .user{
+	margin:0px;
+	padding:0px 0px 0px 20px;
+	position:absolute;
+	right:150px;
+	top:15px;
+	height:16px;
+	color:#FFF;
+	font-family:����;
+	font-size:14px;
+	background:url(../images/header/user.png) no-repeat;
+}
+
+.header ul{
+	margin:0px;
+	padding:0px;
+	height:16px;
+	position:absolute;
+	right:14px;
+	top:15px;
+}
+
+.header ul li{
+	margin:0px;
+	padding:0px;
+	position:relative;
+	float:left;
+	width:28px;
+	height:16px;
+	list-style:none;
+}
+
+.header ul img{
+	margin:0px 4px;
+	padding:0px;
+	width:1px;
+	height:16px;
+	position:relative;
+	float:left;
+	background-color:#00C;
+	border:0px;
+}
+
+.header ul li a{
+	margin:0px 6px;
+	padding:0px;
+	position:relative;
+	float:left;
+	width:16px;
+	height:16px;
+	border:0px;
+}
+
+.header ul li .home{background:url(../images/header/home.png) no-repeat;}
+.header ul li .pwd{background:url(../images/header/password.png) no-repeat;}
+.header ul li .collect{background:url(../images/header/collect.png) no-repeat;}
+.header ul li .refresh{background:url(../images/header/refresh.png) no-repeat;}
+.header ul li .last{background:url(../images/header/last.png) no-repeat;}
+.header ul li .next{background:url(../images/header/next.png) no-repeat;}
+.header ul li .quit{background:url(../images/header/quit.png) no-repeat;}
+
+.header ul li .home:hover{background:url(../images/header/home_hover.png) no-repeat;}
+.header ul li .pwd:hover{background:url(../images/header/password_hover.png) no-repeat;}
+.header ul li .collect:hover{background:url(../images/header/collect_hover.png) no-repeat;}
+.header ul li .refresh:hover{background:url(../images/header/refresh_hover.png) no-repeat;}
+.header ul li .last:hover{background:url(../images/header/last_hover.png) no-repeat;}
+.header ul li .next:hover{background:url(../images/header/next_hover.png) no-repeat;}
+.header ul li .quit:hover{background:url(../images/header/quit_hover.png) no-repeat;}	

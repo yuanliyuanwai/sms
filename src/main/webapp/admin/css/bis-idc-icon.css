@@ -1,0 +1,119 @@
+@CHARSET "UTF-8";
+.bis-idc-add {
+	background-image: url(../images/icons/add.png) !important;
+}
+.bis-idc-edit {
+	background-image: url(../images/icons/edit.png) !important;
+}
+.bis-idc-view {
+	background-image: url(../images/icons/application_view_list.png) !important;
+}
+.bis-panel-save {
+	background-image: url(../images/icons/save.gif) !important;
+}
+.bis-panel-cancel {
+	background-image: url(../images/icons/stop.png) !important;
+}
+.bis-panel-header-user {
+	background-image: url(../images/icons/user.png) !important;
+}
+
+.bis-idc-delete {
+	background-image: url(../images/icons/delete.png) !important;
+}
+.bis-idc-search{
+	background-image: url(../images/icons/search.png) !important;
+}
+.bis-idc-triggerOrg{
+	background-image: url(../images/icons/trigger-org.gif) !important;
+}
+.bis-idc-organization{
+	background-image: url(../images/icons/indexicon.png) !important;
+}
+.bis-idc-clean-condition{
+	background-image: url(../images/icons/closeCurrentTab.png) !important;
+}
+.bis-idc--search
+{
+	background-image: url(../images/icons/search.png) !important;
+}
+.bis-idc-checkIcon
+{
+	background-image: url(../images/icons/check_edit.png) !important;
+}
+.bis-idc-save {
+	background-image: url(../images/icons/save.gif) !important;
+}
+.nav-base
+{
+	background-image: url(../images/icons/nav-base.png) !important;
+}
+.nav-ldap
+{
+	background-image: url(../images/icons/nav-ldap.png) !important;
+}
+.nav-meta
+{
+	background-image: url(../images/icons/nav-meta.png) !important;
+}
+.nav-right
+{
+	background-image: url(../images/icons/nav-right.png) !important;
+}
+.nav-system
+{
+	background-image: url(../images/icons/nav-system.png) !important;
+}
+.nav-stat
+{
+	background-image: url(../images/icons/roolrecordicon.png) !important;
+}
+.bis-idc-device{
+	background-image: url(../images/icons/device.gif) !important;
+}
+.bis-idc-area{
+	background-image: url(../images/icons/area.png) !important;
+}
+.nav-folder-go{
+	background-image: url(../images/icons/folder_go.png) !important;
+}
+.nav-folder-setting{
+	background-image: url(../images/icons/folder_wrench.png) !important;
+}
+.bis-idc-submit{
+	background-image: url(../images/icons/drop-yes.gif) !important;
+}
+.upload-icon {
+    background: url('../images/icons/image_add.png') no-repeat 0 0 !important;
+}
+.bis-idc-return{
+	background-image: url(../images/icons/plugin_add.gif) !important;
+}
+.upload-icon {
+    background: url('../images/icons/image_add.png') no-repeat 0 0 !important;
+}
+.download-icon{
+	background: url('../images/icons/arrow-down.gif') no-repeat 0 0 !important;
+}
+.cart-icon{
+	margin: 0 5px 0 1px;
+	background: url('../images/icons/cart_add.png') no-repeat 0 0 !important;
+}
+.history-icon{
+	background: url('../images/icons/allmanagemenu.png') no-repeat 0 0 !important;
+}
+.money-icon{
+	background-image: url(../images/icons/money.png) !important;
+}
+.go-front-icon{
+	background-image: url(../images/icons/rss_go.png) !important;
+}
+.go-back-icon{
+	background-image: url(../images/icons/rss_back.png) !important;
+}
+.gonggao-icon{
+	background-image: url(../images/icons/gonggao.gif) !important;
+}
+.nav-folder-back{
+	background-image: url(../images/icons/folder_back.png) !important;
+}
