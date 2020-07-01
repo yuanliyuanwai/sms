@@ -25,7 +25,7 @@
 		<druid.version>1.0.17</druid.version>
 		<httpclient.version>4.5.1</httpclient.version>
 		<pinyin4j.version>2.5.0</pinyin4j.version>
-		<quartz.version>2.2.2</quartz.version>
+		<quartz.version>2.3.2</quartz.version>
 		<javax.mail.version>1.4.7</javax.mail.version>
 		<javax.servlet.version>3.1.0</javax.servlet.version>
 	</properties>
