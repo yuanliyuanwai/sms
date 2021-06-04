@@ -23,7 +23,7 @@
 		<junit.version>4.12</junit.version>
 		<poi.version>3.11</poi.version>
 		<druid.version>1.0.17</druid.version>
-		<httpclient.version>4.5.1</httpclient.version>
+		<httpclient.version>4.5.13</httpclient.version>
 		<pinyin4j.version>2.5.0</pinyin4j.version>
 		<quartz.version>2.2.2</quartz.version>
 		<javax.mail.version>1.4.7</javax.mail.version>
