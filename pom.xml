@@ -21,7 +21,7 @@
 		<commons.lang.version>3.4</commons.lang.version>
 		<fastjson.version>1.2.10</fastjson.version>
 		<junit.version>4.12</junit.version>
-		<poi.version>3.11</poi.version>
+		<poi.version>4.1.1</poi.version>
 		<druid.version>1.0.17</druid.version>
 		<httpclient.version>4.5.1</httpclient.version>
 		<pinyin4j.version>2.5.0</pinyin4j.version>
